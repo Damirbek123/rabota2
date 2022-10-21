@@ -1,0 +1,110 @@
+.container  {
+max-width: 1980px;
+margin: 0 auto;
+
+}
+.header_info {
+   min-height: 536px;
+
+}
+ .header_container {
+    display: flex; 
+    justify-content: space-between;
+    min-height: 120px;
+    align-items: center;
+    
+ }
+ button{
+    background-color: blueviolet;
+    color: aqua;/* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 55px 15px;
+    gap: 10px;
+ }
+ .nav{
+   font-weight: 400;
+font-size: 30px;
+line-height: 20px;
+ }
+ ul{
+    display: flex; 
+    justify-content: space-between;
+    width: 300px;
+ }
+ 
+ }
+ ul a {
+    color: gold;
+    text-decoration: none;
+ }
+ ul a:hover{
+    color: rgb(255, 0, 0);
+ }
+ .tel button {
+    background-color: #982525;
+    width: 34px;
+ }
+ .tel a {
+    margin-right: 100px;
+ }
+ button :hover{
+    color: green;
+ }
+
+ .header_info{
+   background-color: #f00000;
+   background-image: url(./sss.png);
+   background-repeat: no-repeat;
+   background-position: right bottom;
+ }
+
+ .header_info p {
+    /* H1 */
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 53px;
+/* or 118% */
+
+
+/* White */
+
+color: #FFFFFF;
+
+
+ }
+
+ .steps_cont{
+   display: flex;
+   justify-content: space-between;
+   background-color: #ffffff;
+
+ }
+ .item{
+   margin-top: 50px;
+   border: 1px solid #cdd8d2;
+   
+   border-radius: 20px;
+
+ }
+ .item p {
+   transform: translate(-32px, -75px);
+   font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 20px;
+/* or 33% */
+
+
+/* Dark Blue */
+
+color: #03073C;
+ }
+ 
